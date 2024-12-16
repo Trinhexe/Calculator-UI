@@ -9,11 +9,12 @@
     <Grid Margin="0,0,10,0">
         <Grid.Resources>
             <Style x:Key="ButtonStyle" TargetType="Button">
-                <Setter Property="Background" Value="White"/>
                 <Setter Property="FontSize" Value="40"/>
                 <Setter Property="Margin" Value="5"/>
                 <Setter Property="Height" Value="Auto"/>
                 <Setter Property="Width" Value="Auto"/>
+                <Setter Property ="Foreground" Value="White"/>
+                <Setter Property ="BorderBrush" Value="#FF202020"/>
             </Style>
         </Grid.Resources>
         <Grid.RowDefinitions>
@@ -50,35 +51,35 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="btnPT" Style="{StaticResource ButtonStyle}" Content="%" Grid.Row="0" Grid.Column="0" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnCE" Style="{StaticResource ButtonStyle}" Content="CE" Grid.Row="0" Grid.Column="1" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnC" Style="{StaticResource ButtonStyle}" Content="C" Grid.Row="0" Grid.Column="2" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnXoa" Style="{StaticResource ButtonStyle}" Content="⌫" Grid.Row="0" Grid.Column="3" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
+            <Button x:Name="btnPT" Style="{StaticResource ButtonStyle}" Content="%" Grid.Row="0" Grid.Column="0" Background="#FF323232"  />
+            <Button x:Name="btnCE" Style="{StaticResource ButtonStyle}" Content="CE" Grid.Row="0" Grid.Column="1" Background="#FF323232" />
+            <Button x:Name="btnC" Style="{StaticResource ButtonStyle}" Content="C" Grid.Row="0" Grid.Column="2" Background="#FF323232"  />
+            <Button x:Name="btnXoa" Style="{StaticResource ButtonStyle}" Content="⌫" Grid.Row="0" Grid.Column="3" Background="#FF323232"  />
 
-            <Button x:Name="btn1chia" Style="{StaticResource ButtonStyle}" Content="1/x" Grid.Row="1" Grid.Column="0" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnSqrt" Style="{StaticResource ButtonStyle}" Content="√x" Grid.Row="1" Grid.Column="1" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnPow" Style="{StaticResource ButtonStyle}" Content="x²" Grid.Row="1" Grid.Column="2" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnChia" Style="{StaticResource ButtonStyle}" Content="/" Grid.Row="1" Grid.Column="3" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
+            <Button x:Name="btn1chia" Style="{StaticResource ButtonStyle}" Content="1/x" Grid.Row="1" Grid.Column="0" Background="#FF323232"  />
+            <Button x:Name="btnSqrt" Style="{StaticResource ButtonStyle}" Content="√x" Grid.Row="1" Grid.Column="1" Background="#FF323232"  />
+            <Button x:Name="btnPow" Style="{StaticResource ButtonStyle}" Content="x²" Grid.Row="1" Grid.Column="2" Background="#FF323232" />
+            <Button x:Name="btnChia" Style="{StaticResource ButtonStyle}" Content="/" Grid.Row="1" Grid.Column="3" Background="#FF323232"  />
 
-            <Button x:Name="btn7" Style="{StaticResource ButtonStyle}" Content="7" Grid.Row="2" Grid.Column="0" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn8" Style="{StaticResource ButtonStyle}" Content="8" Grid.Row="2" Grid.Column="1" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn9" Style="{StaticResource ButtonStyle}" Content="9" Grid.Row="2" Grid.Column="2" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnNhan" Style="{StaticResource ButtonStyle}" Content="x" Grid.Row="2" Grid.Column="3" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
+            <Button x:Name="btn7" Style="{StaticResource ButtonStyle}" Content="7" Grid.Row="2" Grid.Column="0" Background="#FF3B3B3B"  />
+            <Button x:Name="btn8" Style="{StaticResource ButtonStyle}" Content="8" Grid.Row="2" Grid.Column="1" Background="#FF3B3B3B"  />
+            <Button x:Name="btn9" Style="{StaticResource ButtonStyle}" Content="9" Grid.Row="2" Grid.Column="2" Background="#FF3B3B3B"  />
+            <Button x:Name="btnNhan" Style="{StaticResource ButtonStyle}" Content="x" Grid.Row="2" Grid.Column="3" Background="#FF323232" />
 
-            <Button x:Name="btn4" Style="{StaticResource ButtonStyle}" Content="4" Grid.Row="3" Grid.Column="0" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn5" Style="{StaticResource ButtonStyle}" Content="5" Grid.Row="3" Grid.Column="1" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn6" Style="{StaticResource ButtonStyle}" Content="6" Grid.Row="3" Grid.Column="2" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnTru" Style="{StaticResource ButtonStyle}" Content="-" Grid.Row="3" Grid.Column="3" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
+            <Button x:Name="btn4" Style="{StaticResource ButtonStyle}" Content="4" Grid.Row="3" Grid.Column="0" Background="#FF3B3B3B"  />
+            <Button x:Name="btn5" Style="{StaticResource ButtonStyle}" Content="5" Grid.Row="3" Grid.Column="1" Background="#FF3B3B3B"  />
+            <Button x:Name="btn6" Style="{StaticResource ButtonStyle}" Content="6" Grid.Row="3" Grid.Column="2" Background="#FF3B3B3B"  />
+            <Button x:Name="btnTru" Style="{StaticResource ButtonStyle}" Content="-" Grid.Row="3" Grid.Column="3" Background="#FF323232" />
 
-            <Button x:Name="btn1" Style="{StaticResource ButtonStyle}" Content="1" Grid.Row="4" Grid.Column="0" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn2" Style="{StaticResource ButtonStyle}" Content="2" Grid.Row="4" Grid.Column="1" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn3" Style="{StaticResource ButtonStyle}" Content="3" Grid.Row="4" Grid.Column="2" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnCong" Style="{StaticResource ButtonStyle}" Content="+" Grid.Row="4" Grid.Column="3" Background="#FF323232" Foreground="White" BorderBrush="#FF202020"/>
+            <Button x:Name="btn1" Style="{StaticResource ButtonStyle}" Content="1" Grid.Row="4" Grid.Column="0" Background="#FF3B3B3B" />
+            <Button x:Name="btn2" Style="{StaticResource ButtonStyle}" Content="2" Grid.Row="4" Grid.Column="1" Background="#FF3B3B3B"  />
+            <Button x:Name="btn3" Style="{StaticResource ButtonStyle}" Content="3" Grid.Row="4" Grid.Column="2" Background="#FF3B3B3B" />
+            <Button x:Name="btnCong" Style="{StaticResource ButtonStyle}" Content="+" Grid.Row="4" Grid.Column="3" Background="#FF323232"  />
 
-            <Button x:Name="btnCtru" Style="{StaticResource ButtonStyle}" Content="+/-" Grid.Row="5" Grid.Column="0" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn0" Style="{StaticResource ButtonStyle}" Content="0" Grid.Row="5" Grid.Column="1" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btn" Style="{StaticResource ButtonStyle}" Content="." Grid.Row="5" Grid.Column="2" Background="#FF3B3B3B" Foreground="White" BorderBrush="#FF202020"/>
-            <Button x:Name="btnBang" Style="{StaticResource ButtonStyle}" Content="=" Grid.Row="5" Grid.Column="3" Background="#FFA40B19" BorderBrush="#FF202020"/>
+            <Button x:Name="btnCtru" Style="{StaticResource ButtonStyle}" Content="+/-" Grid.Row="5" Grid.Column="0" Background="#FF3B3B3B" />
+            <Button x:Name="btn0" Style="{StaticResource ButtonStyle}" Content="0" Grid.Row="5" Grid.Column="1" Background="#FF3B3B3B"  />
+            <Button x:Name="btn" Style="{StaticResource ButtonStyle}" Content="." Grid.Row="5" Grid.Column="2" Background="#FF3B3B3B"  />
+            <Button x:Name="btnBang" Style="{StaticResource ButtonStyle}" Content="=" Grid.Row="5" Grid.Column="3" Background="#FFA40B19" />
         </Grid>
     </Grid>
 </Window>

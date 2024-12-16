@@ -78,7 +78,7 @@
             <Button x:Name="btnCtru" Style="{StaticResource ButtonStyle}" Content="+/-" Grid.Row="5" Grid.Column="0"/>
             <Button x:Name="btn0" Style="{StaticResource ButtonStyle}" Content="0" Grid.Row="5" Grid.Column="1"/>
             <Button x:Name="btn" Style="{StaticResource ButtonStyle}" Content="." Grid.Row="5" Grid.Column="2"/>
-            <Button x:Name="btnBang" Style="{StaticResource ButtonStyle}" Content="=" Grid.Row="5" Grid.Column="3"/>
+            <Button x:Name="btnBang" Style="{StaticResource ButtonStyle}" Content="=" Grid.Row="5" Grid.Column="3" Background="#FF1975C5"/>
         </Grid>
     </Grid>
 </Window>

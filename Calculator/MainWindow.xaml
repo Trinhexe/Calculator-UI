@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Calculator" Height="900" Width="700" Background="#FFF3F3F3" Icon="/2344132.png">
+        Title="Calculator" Height="900" Width="700" Background="#FFF3F3F3" Icon="Icon/2344132.png" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,10,0">
         <Grid.Resources>
             <Style x:Key="ButtonStyle" TargetType="Button">
@@ -30,7 +30,7 @@
             <Button Name ="btnMS" FontSize="20" Background="#FFF3F3F3" Content="MS" HorizontalAlignment="Left" Margin="72,238,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" BorderBrush="#FFF3F3F3" RenderTransformOrigin="0.829,0.502"/>
             <Button Name ="btnHis" FontSize="20" Background="#FFF3F3F3" Content="History" HorizontalAlignment="Right" Margin="0,38,133,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" BorderBrush="#FFF3F3F3" RenderTransformOrigin="0.195,0.557"/>
             <Button Name ="btnMem" FontSize="20" Background="#FFF3F3F3" Content="Memory" HorizontalAlignment="Right" Margin="0,38,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" BorderBrush="#FFF3F3F3"/>
-            <Image HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="37" Source="/anh.jpg"/>
+            <Image HorizontalAlignment="Left" Height="41" VerticalAlignment="Top" Width="37" Source="/Icon/anh.jpg"/>
             <Label Content="Standrad" HorizontalAlignment="Left" Margin="37,2,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Times New Roman"/>
         </Grid>
         <Grid Margin="10,10,257,10" Grid.Row="1">

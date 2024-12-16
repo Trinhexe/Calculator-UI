@@ -10,12 +10,13 @@
 
   <ItemGroup>
     <None Remove="2344132.png" />
+    <None Remove="anh-removebg-preview.png" />
     <None Remove="anh.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Icon\anh-removebg-preview.png" />
     <Resource Include="Icon\2344132.png" />
-    <Resource Include="Icon\anh.jpg" />
   </ItemGroup>
 
 </Project>
